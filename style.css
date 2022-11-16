@@ -10,11 +10,20 @@
 }
 
 #v-button {
+    background-image: url(images/bgk-middle.png);
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
+
+.v-button {
+    top: 40%;
+    left: 50%;
+    position: absolute;
+    margin-left: -25px;
+    margin-top: -30px;
+}
+
 i, h4 {
     color: white;
 }
