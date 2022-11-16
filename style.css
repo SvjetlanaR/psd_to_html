@@ -1,7 +1,6 @@
 * {
-    background-color: green
+    background-color:
 }
-
 #watch-section {
     background-image: url(images/bgk-middle.png);
     background-size: cover;
@@ -20,8 +19,6 @@
     top: 40%;
     left: 50%;
     position: absolute;
-    margin-left: -25px;
-    margin-top: -30px;
 }
 
 i, h4 {
