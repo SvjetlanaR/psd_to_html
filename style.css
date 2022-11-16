@@ -1,3 +1,20 @@
 * {
     background-color: green
 }
+
+#watch-section {
+    background-image: url(images/bgk-middle.png);
+    background-size: cover;
+    height: 600px;
+    
+}
+
+#v-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+i, h4 {
+    color: white;
+}
