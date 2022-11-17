@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   gap: 80px;
-
+}
 /* Our story Section */
 
 .our_story-section {
@@ -149,12 +149,43 @@ header a {
 }
 
 .v-button {
-   background-color: azure;
+   background-color: white
 }
 
-i, h4 {
+i, h4  {
     color: white;
 }
+
+/* Expertise Section */
+
+#expertise-section {
+ background-color: blanchedalmond;
+ text-align: center;
+ padding: 3rem;
+}
+
+hr {
+  width: 5%;  
+}
+
+.expertise-container {
+    display: flex;
+    min-height: 150px;
+    background-color: pink;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+
+    gap: 1px;
+}
+
+.expertise-item {
+    height: 250px;
+    width: 25%;
+    justify-content:first baseline;
+    background-color: purple;   
+}
+
 
 .contact-logo-section {
   width: 30%;
