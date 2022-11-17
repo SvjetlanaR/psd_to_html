@@ -1,3 +1,8 @@
+/* contact-form styling */
+#contact-client-section {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
 
 /* Our story Section */
 
@@ -149,4 +154,31 @@ header a {
 
 i, h4 {
     color: white;
+}
+
+.contact-logo-section {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-area {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  gap: 20px;
+}
+.form-area input,
+textarea {
+  padding: 15px;
+}
+
+.logo-img {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.logo-img img {
+  width: 120px;
 }
