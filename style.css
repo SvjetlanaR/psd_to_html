@@ -77,4 +77,27 @@ header a {
     color: rgb(32, 142, 142);
     border-radius: 0.5rem;
     margin-top: 50px;
+
+#watch-section {
+    background-image: url(images/bgk-middle.png);
+    background-size: cover;
+    height: 600px;
+    
+}
+
+#v-button {
+    background-image: url(images/bgk-middle.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.v-button {
+    top: 40%;
+    left: 50%;
+    position: absolute;
+}
+
+i, h4 {
+    color: white;
 }
