@@ -3,6 +3,157 @@
   display: flex;
   justify-content: center;
   gap: 80px;
+
+/* Our story Section */
+
+.our_story-section {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+    font-family: sans-serif;
+
+}
+
+
+.ourstorylogo {
+    display: flex;
+    width: 250px;
+    padding-left: 15rem;
+    padding-right: 3rem;
+}
+
+.ourstory {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 15rem;
+}
+ .ourstory p {
+    color: rgb(114, 109, 109);
+}
+
+.learnmore {
+        display: block;
+        width: 150px;
+        border: 2px solid #00e0d0;
+        color: #00e0d0;
+        background-color: white;
+        font-weight: 300px;
+        padding: 15px 15px;
+        text-align: center;
+}
+
+.learnmore:hover {
+    background-color: rgb(36, 93, 96);
+    cursor: pointer;
+}
+
+/* Team content section */
+
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+
+/* General */
+* {
+    font-family: Helvetia;
+}
+
+body {
+    margin: 0; /*otherwise we have a white frame around the website*/
+}
+
+
+/* header */
+header {
+    background-image: url(images/bgk-header.png);
+    background-size: cover;
+    height: 600px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 5px 20px;
+
+}
+
+#logoandnav {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 900;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    color:rgb(32, 142, 142);
+    gap: 9px;
+}
+#logo p {
+    font-size: 23px;
+}
+
+#home {
+    color:rgb(32, 142, 142);
+}
+
+
+/* hero section */
+#hero-section {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+#hero-section hr {
+    width: 50px;
+    border-color:rgb(32, 142, 142);
+    border-width: 1px;
+}
+
+#hero-section p {
+    width: 700px;
+    text-align: center;
+    line-height: 1.4rem;
+}
+#hero-section-button {
+    border: 1px solid rgb(5, 146, 144);
+    font-weight: 500;
+    border-color: rgb(5, 146, 144);
+    padding: 0.5rem;
+    background-color: transparent;
+    color: rgb(32, 142, 142);
+    border-radius: 0.5rem;
+    margin-top: 50px;
+}
+/* watch section */
+#watch-section {
+    background-image: url(images/bgk-middle.png);
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.v-button {
+   background-color: azure;
+}
+
+i, h4 {
+    color: white;
 }
 
 .contact-logo-section {
