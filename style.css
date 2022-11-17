@@ -1,3 +1,4 @@
+
 /* Our story Section */
 
 .our_story-section {
@@ -50,4 +51,102 @@
     flex-wrap: wrap;
     padding-left: 15rem;
     padding-right: 15rem;
+}
+
+/* General */
+* {
+    font-family: Helvetia;
+}
+
+body {
+    margin: 0; /*otherwise we have a white frame around the website*/
+}
+
+
+/* header */
+header {
+    background-image: url(images/bgk-header.png);
+    background-size: cover;
+    height: 600px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 5px 20px;
+
+}
+
+#logoandnav {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 900;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    color:rgb(32, 142, 142);
+    gap: 9px;
+}
+#logo p {
+    font-size: 23px;
+}
+
+#home {
+    color:rgb(32, 142, 142);
+}
+
+
+/* hero section */
+#hero-section {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+#hero-section hr {
+    width: 50px;
+    border-color:rgb(32, 142, 142);
+    border-width: 1px;
+}
+
+#hero-section p {
+    width: 700px;
+    text-align: center;
+    line-height: 1.4rem;
+}
+#hero-section-button {
+    border: 1px solid rgb(5, 146, 144);
+    font-weight: 500;
+    border-color: rgb(5, 146, 144);
+    padding: 0.5rem;
+    background-color: transparent;
+    color: rgb(32, 142, 142);
+    border-radius: 0.5rem;
+    margin-top: 50px;
+}
+/* watch section */
+#watch-section {
+    background-image: url(images/bgk-middle.png);
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.v-button {
+   background-color: azure;
+}
+
+i, h4 {
+    color: white;
 }
