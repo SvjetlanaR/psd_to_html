@@ -159,11 +159,13 @@ i, h4  {
 /* Expertise Section */
 
 #expertise-section {
- background-color: blanchedalmond;
  text-align: center;
  padding: 3rem;
 }
 
+.expertise-item p {
+    color: rgb(114, 109, 109);
+}
 hr {
   width: 5%;  
 }
@@ -171,20 +173,60 @@ hr {
 .expertise-container {
     display: flex;
     min-height: 150px;
-    background-color: pink;
     flex-wrap: wrap;
     justify-content: center;
     padding: 2rem;
+}
 
-    gap: 1px;
+.invert{
+    -webkit-filter: invert(100%);
 }
 
 .expertise-item {
     height: 250px;
-    width: 25%;
-    background-color: purple;   
+    width: 25%;  
+    border-radius: 1px;
+    border-color: gray;
+    border-style: solid;
+    align-self: baseline;
 }
 
+.expertise-item {
+    font-size: 90%;
+}
+
+.item1 {
+    border-left-color: transparent;
+    border-top-color: transparent;
+}
+
+.item2 {
+    border-top-color: transparent;
+}
+
+.item3 {
+    border-right-color: transparent;
+    border-top-color: transparent;
+}
+
+.item4 {
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+}
+
+.item5 {
+    border-bottom-color: transparent;
+}
+
+.item6 {
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+}
+.expertise-item i {
+    colour: black;
+}
+
+/* contakt section*/
 .contact-logo-section {
   width: 30%;
   display: flex;
