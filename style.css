@@ -192,19 +192,90 @@ header a {
 }
 
 .v-button {
-  background-color: azure;
+   background-color: white
 }
 
-i,
-h4 {
-  color: white;
+i, h4  {
+    color: white;
 }
+
 #contact-client-section {
     display: flex;
     justify-content: center;
     gap: 70px;
   }
 
+/* Expertise Section */
+
+#expertise-section {
+ text-align: center;
+ padding: 3rem;
+}
+
+.expertise-item p {
+    color: rgb(114, 109, 109);
+}
+hr {
+  width: 5%;  
+}
+
+.expertise-container {
+    display: flex;
+    min-height: 150px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.invert{
+    -webkit-filter: invert(100%);
+}
+
+.expertise-item {
+    height: 250px;
+    width: 25%;  
+    border-radius: 1px;
+    border-color: gray;
+    border-style: solid;
+    align-self: baseline;
+}
+
+.expertise-item {
+    font-size: 90%;
+}
+
+.item1 {
+    border-left-color: transparent;
+    border-top-color: transparent;
+}
+
+.item2 {
+    border-top-color: transparent;
+}
+
+.item3 {
+    border-right-color: transparent;
+    border-top-color: transparent;
+}
+
+.item4 {
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+}
+
+.item5 {
+    border-bottom-color: transparent;
+}
+
+.item6 {
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+}
+.expertise-item i {
+    colour: black;
+}
+
+/* contakt section*/
 .contact-logo-section {
   width: 400px;
   display: flex;
