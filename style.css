@@ -182,10 +182,8 @@ hr {
 .expertise-item {
     height: 250px;
     width: 25%;
-    justify-content:first baseline;
     background-color: purple;   
 }
-
 
 .contact-logo-section {
   width: 30%;
