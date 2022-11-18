@@ -1,160 +1,211 @@
-/* contact-form styling */
-#contact-client-section {
-  display: flex;
-  justify-content: center;
-  gap: 80px;
-}
+
 /* Our story Section */
+.our_story-section ,
+.team-content-section 
+{
+  font-family: 'Roboto';
+}
 
 .our_story-section {
-    display: inline-flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 3rem;
-    font-family: sans-serif;
-
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;
+  padding: 60px 60px;
 }
 
-
 .ourstorylogo {
-    display: flex;
-    width: 250px;
-    padding-left: 15rem;
-    padding-right: 3rem;
+  display: flex;
+  width: 250px;
+  padding-left: 15rem;
+  padding-right: 3rem;
 }
 
 .ourstory {
-    display: flex;
-    flex-wrap: wrap;
-    padding-right: 15rem;
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 15rem;
 }
- .ourstory p {
-    color: rgb(114, 109, 109);
+.ourstory p {
+  color: rgb(114, 109, 109);
 }
 
 .learnmore {
-        display: block;
-        width: 150px;
-        border: 2px solid #00e0d0;
-        color: #00e0d0;
-        background-color: white;
-        font-weight: 300px;
-        padding: 15px 15px;
-        text-align: center;
+  display: block;
+  width: 150px;
+  border: 2px solid #00e0d0;
+  color: #00e0d0;
+  background-color: transparent;
+  font-weight: 300px;
+  padding: 15px 15px;
+  text-align: center;
 }
 
+#anchor {
+  text-decoration: none;
+}
+
+.wearehiring:hover,
 .learnmore:hover {
-    background-color: rgb(36, 93, 96);
-    cursor: pointer;
+  background-color: rgb(36, 93, 96);
+  cursor: pointer;
 }
 
 /* Team content section */
 
+.team-content-section {
+  text-align: center;
+  background-image: url(./images/bgk-header.png);
+  color: white;
+  padding: 60px 60px;
+  background-size: cover;
+}
+
+.team-member-job {
+  color: rgb(114, 109, 109);
+}
+
+.team-member {
+  border: 1px solid gray;
+  margin-bottom: 5px;
+}
+
+.team-member-name {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.team-member-job {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.wearehiring {
+  width: 150px;
+  border: 2px solid #00e0d0;
+  border-radius: 2px;
+  color: #00e0d0;
+  background-color: transparent;
+  font-weight: 300px;
+  padding: 15px 15px;
+}
+
+#team-section hr {
+  width: 50px;
+  border-color: rgb(114, 109, 109);
+  border-width: 1px;
+}
+
 .team-members {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding-left: 15rem;
-    padding-right: 15rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 14rem;
+  padding-right: 14rem;
 }
 
 /* General */
 * {
-    font-family: Helvetia;
+  font-family: Helvetia;
 }
 
 body {
-    margin: 0; /*otherwise we have a white frame around the website*/
+  margin: 0; /*otherwise we have a white frame around the website*/
 }
-
 
 /* header */
 header {
-    background-image: url(images/bgk-header.png);
-    background-size: cover;
-    height: 600px;
+  background-image: url(images/bgk-header.png);
+  background-size: cover;
+  height: 600px;
 }
 
 header a {
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    margin: 5px 20px;
-
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 5px 20px;
 }
 
 #logoandnav {
-    display: flex;
-    justify-content: center;
-    gap: 200px;
-    align-items: center;
-    font-size: 10px;
-    font-weight: 900;
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  align-items: center;
+  font-size: 10px;
+  font-weight: 900;
 }
 
 #logo {
-    display: flex;
-    align-items: center;
-    color:rgb(32, 142, 142);
-    gap: 9px;
+  display: flex;
+  align-items: center;
+  color: rgb(32, 142, 142);
+  gap: 9px;
 }
 #logo p {
-    font-size: 23px;
+  font-size: 23px;
 }
 
 #home {
-    color:rgb(32, 142, 142);
+  color: rgb(32, 142, 142);
 }
-
 
 /* hero section */
 #hero-section {
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 100px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 100px;
 }
 
 #hero-section hr {
-    width: 50px;
-    border-color:rgb(32, 142, 142);
-    border-width: 1px;
+  width: 50px;
+  border-color: rgb(32, 142, 142);
+  border-width: 1px;
 }
 
 #hero-section p {
-    width: 700px;
-    text-align: center;
-    line-height: 1.4rem;
+  width: 700px;
+  text-align: center;
+  line-height: 1.4rem;
 }
-#hero-section-button {
-    border: 1px solid rgb(5, 146, 144);
-    font-weight: 500;
-    border-color: rgb(5, 146, 144);
-    padding: 0.5rem;
-    background-color: transparent;
-    color: rgb(32, 142, 142);
-    border-radius: 0.5rem;
-    margin-top: 50px;
-}
+/* #hero-section-button {
+  border: 1px solid rgb(5, 146, 144);
+  font-weight: 500;
+  border-color: rgb(5, 146, 144);
+  padding: 0.5rem;
+  background-color: transparent;
+  color: rgb(32, 142, 142);
+  border-radius: 0.5rem;
+  margin-top: 50px;
+} */
 /* watch section */
 #watch-section {
-    background-image: url(images/bgk-middle.png);
-    background-size: cover;
-    height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background-image: url(images/bgk-middle.png);
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .v-button {
    background-color: white
 }
 
-i, h4  {
-    color: white;
+i,
+h4 {
+  color: white;
 }
+
+#contact-client-section {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+  }
 
 /* Expertise Section */
 
@@ -228,9 +279,10 @@ hr {
 
 /* contakt section*/
 .contact-logo-section {
-  width: 30%;
+  width: 400px;
   display: flex;
   flex-direction: column;
+  padding: 50px 0 40px 0;
 }
 
 .form-area {
@@ -241,15 +293,150 @@ hr {
 }
 .form-area input,
 textarea {
-  padding: 15px;
+    padding: 10px;
+    border-style: solid;
+  border-color: rgb(233, 239, 239);
 }
 
 .logo-img {
-  display: inline-flex;
-  flex-wrap: wrap;
-  gap: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: flex-start;
+  gap: 30px;
 }
 
 .logo-img img {
   width: 120px;
 }
+
+.contact-logo-section h3 {
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.footer {
+    background-image: url(images/bgk-footer.png);
+    background-size: cover;
+    height: 300px;
+    display: block;
+}
+
+.footer-top {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+
+
+.footer-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    height: auto;
+    color: white;
+    gap: 20px;
+}
+
+
+
+.footer-address {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    font-size: 12px;
+}
+
+.footer-telephone {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    font-size: 12px;
+
+}
+
+
+.footer-right{
+    width: 300px;
+    height: auto;
+    padding-top: 13px;
+}
+
+.footer-left{
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logofooter {
+    display: flex;
+    align-items: center;
+    color:rgb(32, 142, 142);
+    gap: 9px;
+
+}
+.logofooter p {
+    font-size: 23px;
+}
+
+.textfooter {
+    color: white;
+    line-height: 1.4rem;
+    font-size: 13px;
+}
+
+.footer-bottom {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    gap: 800px;
+
+}
+
+.footer-bottom ul {
+    display: flex;
+}
+
+.footer-bottom ul {
+    list-style: none;
+    gap: 45px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.footer-bottom a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.footer-bottom p {
+    color:white;
+    font-size: 12px;
+}
+
+.newsletter-form {
+    padding-top: 20px;
+    display: flex;
+    gap: 20px
+}
+.newsletter-form input {
+    padding: 10px 20px 10px 10px;
+}
+.footer-right p {
+    color: white;
+    padding-top: 30px;
+    text-transform: uppercase;
+}
+.subscribe-btn {
+    background-color: white;
+    padding: 0 10px 0 10px;
+}
+
+.footer-img {
+    padding-top: 20px;
+}
+
