@@ -1,9 +1,3 @@
-/* contact-form styling */
-#contact-client-section {
-  display: flex;
-  justify-content: center;
-  gap: 80px;
-
 /* Our story Section */
 
 .our_story-section {
@@ -155,11 +149,19 @@ header a {
 i, h4 {
     color: white;
 }
+#contact-client-section {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    border: #00e0d0 solid ;
+    /* padding: 30px; */
+  }
 
 .contact-logo-section {
-  width: 30%;
+  width: 400px;
   display: flex;
   flex-direction: column;
+  padding: 50px 0 40px 0;
 }
 
 .form-area {
@@ -170,15 +172,22 @@ i, h4 {
 }
 .form-area input,
 textarea {
-  padding: 15px;
+    padding: 10px;
+    border-style: solid;
+  border-color: rgb(233, 239, 239);
 }
 
 .logo-img {
-  display: inline-flex;
-  flex-wrap: wrap;
-  gap: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: flex-start;
+  gap: 30px;
 }
 
 .logo-img img {
   width: 120px;
+}
+.contact-logo-section h3 {
+    text-transform: uppercase;
+    padding-bottom: 20px;
 }
