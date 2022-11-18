@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   gap: 80px;
-
+}
 /* Our story Section */
 
 .our_story-section {
@@ -181,4 +181,130 @@ textarea {
 
 .logo-img img {
   width: 120px;
+}
+
+.footer {
+    background-image: url(images/bgk-footer.png);
+    background-size: cover;
+    height: 300px;
+    display: block;
+}
+
+.footer-top {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+
+
+.footer-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    height: auto;
+    color: white;
+    gap: 20px;
+}
+
+
+
+.footer-address {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    font-size: 12px;
+}
+
+.footer-telephone {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    font-size: 12px;
+
+}
+
+
+.footer-right{
+    width: 300px;
+    height: auto;
+    padding-top: 13px;
+}
+
+.footer-left{
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logofooter {
+    display: flex;
+    align-items: center;
+    color:rgb(32, 142, 142);
+    gap: 9px;
+
+}
+.logofooter p {
+    font-size: 23px;
+}
+
+.textfooter {
+    color: white;
+    line-height: 1.4rem;
+    font-size: 13px;
+}
+
+.footer-bottom {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    gap: 800px;
+
+}
+
+.footer-bottom ul {
+    display: flex;
+}
+
+.footer-bottom ul {
+    list-style: none;
+    gap: 45px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.footer-bottom a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.footer-bottom p {
+    color:white;
+    font-size: 12px;
+}
+
+.newsletter-form {
+    padding-top: 20px;
+    display: flex;
+    gap: 20px
+}
+.newsletter-form input {
+    padding: 10px 20px 10px 10px;
+}
+.footer-right p {
+    color: white;
+    padding-top: 30px;
+    text-transform: uppercase;
+}
+.subscribe-btn {
+    background-color: white;
+    padding: 0 10px 0 10px;
+}
+
+.footer-img {
+    padding-top: 20px;
 }
